@@ -161,8 +161,8 @@ Verilog coding style checking
 ## Simulation
 Simulate the core file(s)
 
-    cd lab1/sim/
-    ncverilog tb_Top.sv ./../src/Top.sv +access+rw
+    cd Lab1/sim/
+    vcs tb_Top.sv ./../src/Top.sv -full64 -R -debug_access+all -sverilog +access+rw
 
 And you can use nWave to check the signals of your Verilog code.
 
