@@ -139,7 +139,7 @@ The requirements are:
 
 * Test Rsa256Core
 ```
-    ncverilog +access+r <tb.sv> <Rsa256Core.sv>
+    vcs <tb.sv> <Rsa256Core.sv> -full64 -R -debug_access+all -sverilog +access+rw
 ```
 * Test Rsa256Wrapper 
 ```
