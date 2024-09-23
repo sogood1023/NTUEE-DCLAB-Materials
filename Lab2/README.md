@@ -143,8 +143,8 @@ The requirements are:
 ```
 * Test Rsa256Wrapper 
 ```
-    ncverilog +access+r <test_wrapper.sv> <PipelineCtrl.v> <PipelineTb.v> \ 
-    <Rsa256Wrapper.sv> <Rsa256Core.sv>
+    vcs <test_wrapper.sv> <PipelineCtrl.v> <PipelineTb.v> \ 
+    <Rsa256Wrapper.sv> <Rsa256Core.sv> -full64 -R -debug_access+all -sverilog +access+rw
 ```
 **NOTICE:** Please follow the exact argument order, wrong order may lead to error. 
 
