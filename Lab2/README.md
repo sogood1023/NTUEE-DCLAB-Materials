@@ -155,11 +155,11 @@ Note that the size of plain text must be 31n.
 
 Encode:
 ```
-    python2 rsa.py e < plain.txt > cipher.bin
+    python rsa.py e < plain.txt > cipher.bin
 ```
 
 Decode:
 ```
-    python2 rsa.py d < cipher.bin > plain.txt
+    python rsa.py d < cipher.bin > plain.txt
 ```
 
